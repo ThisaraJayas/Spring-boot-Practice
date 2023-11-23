@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class InvestorService {
 @Autowired
-    EligibilityService es;
+    EligibilityService es;g
     String Register(String name, float registerAmount){
 
         boolean result = es.isEligible(registerAmount);
