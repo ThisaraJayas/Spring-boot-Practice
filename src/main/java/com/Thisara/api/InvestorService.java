@@ -9,7 +9,7 @@ public class InvestorService {
     EligibilityService es;
     String Register(String name, float registerAmount){
 
-        boolean result = es.isEligible(registerAmount);nn
+        boolean result = es.isEligible(registerAmount);
 
         if(result){
             return "Hi "+name+" Welcome";
